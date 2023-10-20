@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfKeyboardMovement.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WPF Keyboard Movement" Height="350" Width="500">
+    <Grid>
+        <Canvas x:Name="myCanvas" Background="White">
+            <Rectangle x:Name="player" Width="50" Height="50" Fill="Blue" />
+        </Canvas>
+    </Grid>
+</Window>
